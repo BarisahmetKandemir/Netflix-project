@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="şeffaf">
+      <div class="başlık"><span style="color:white">NET</span><span style="color:red">FLİX</span></div>
+      <div class="yazı">
+        <p>Thank you for signing set up Netflix.Tell us more about your self</p>
+      </div>
+
+      <div class="siyah">
+        <!-- İsim -->
+        <p class="p1">Name</p>
+        <input type="text" class="input1" placeholder="Name">
+
+        <!-- Yaş -->
+        <p class="p2">Age</p>
+        <input type="number" class="input2" placeholder="Age">
+
+        <!-- Email -->
+        <p class="p3">Email</p>
+        <input type="text" class="input3" placeholder="Email">
+
+        <!-- Tür -->
+        <p class="p4">Content Type</p>
+        <select>
+          <option value="Horror">Horror</option>
+          <option value="Comedy">Comedy</option>
+          <option value="Action">Action</option>
+          <option value="Cartoon">Cartoon</option>
+        </select>
+
+        <!-- CheckBox -->
+        <div class="checbox">
+
+        <p class="checboxp">Movie Type</p>
+        <input type="checkbox" value="Comedy" id="comedy" class="checbox1">
+        <label for="comedy" class="checbox1">Comedy</label>
+        <input type="checkbox" value="Action" id="Action" class="checbox2">
+        <label for="Action" class="checbox2">Action</label>
+        <input type="checkbox" value="Animation" id="Animation" class="checbox3">
+        <label for="Animation" class="checbox3">Animation</label>
+        </div>
+
+        <!-- Radio -->
+        <div class="radio">
+
+        <p class="radiop">Gender</p>
+        <input type="radio" value="Male" id="male" class="radio1"  name="Radio">
+        <label for="male" class="radio1">Male</label>
+        <input type="radio" value="Male" id="Female" class="radio2" name="Radio">
+        <label for="Female" class="radio2">Female</label>
+        <input type="radio" value="Male" id="Other" class="radio3" name="Radio">
+        <label for="Other" class="radio3">Other</label>
+        </div>
+
+        <!-- FeedBack -->
+        <div class="Feedbackdiv">
+        <p class="Feedbackp">Feedback</p>
+        <input type="text" class="Feedback" placeholder="Feedback">
+        </div>
+ 
+        <!-- Button -->
+        <button type="button" class="button" onclick="alert(`Teşekkür ederiz ❤`)">SEND</button>
+
+
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
